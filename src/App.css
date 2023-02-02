@@ -1,0 +1,22 @@
+*{
+    background-color: black;
+    color: #fff;
+}
+
+
+.grid-main{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.grid-child{
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px;
+    transition: .3s;
+}
+/* h3:hover, p:hover , .grid-child:hover{
+  background-color: #fff;
+  color: #111;
+} */
